@@ -1,5 +1,3 @@
-# FastGm
-
 Plugin Minecraft pour se mettre rapidement et efficacement en Gamemode Survival, Creative & Spectator. Utilisation :
 
 /gm1 (Creative)
