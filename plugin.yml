@@ -1,0 +1,27 @@
+name: FastGm
+main: FastGm\Main
+author: Hazuro
+version: 1.0.0
+api: 5.0.0
+
+commands:
+  gm1:
+    description: "Passer en mode Créatif"
+    usage: /gm1
+    permission: fastgm.command.gm1
+  gm0:
+    description: "Passer en mode Survie"
+    usage: /gm0
+    permission: fastgm.command.gm0
+  gm3:
+    description: "Passer en mode Spectateur"
+    usage: /gm3
+    permission: fastgm.command.gm3
+
+permissions:
+  fastgm.command.gm1:
+    default: op
+  fastgm.command.gm0:
+    default: op
+  fastgm.command.gm3:
+    default: op
